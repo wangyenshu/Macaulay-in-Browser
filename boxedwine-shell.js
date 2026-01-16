@@ -40,7 +40,7 @@
             Config.appZipFile = getAppZipFile("app"); //MANUAL:"chomp.zip";
             Config.appPayload = getPayload("app-payload"); 
             Config.extraPayload = getPayload("overlay-payload"); 
-            Config.Program = getExecutable(); //MANUAL:"CHOMP.EXE";
+            Config.Program = "run.bat"; //MANUAL:"CHOMP.EXE";
             Config.isSoundEnabled = getSound();
             Config.bpp = getBitsPerPixel();
 			Config.cpu = getCPU();
